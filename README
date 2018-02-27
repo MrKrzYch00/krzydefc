@@ -1,0 +1,43 @@
+KrzYdefC by Mr_KrzYch00
+Closed source. Provided as-is without any warranty. Only for private use.
+
+Losslessly converts deflate streams from GZ, ZIP*, ZLIB, PNG to GZ, ZIP, ZLIB, PNG**.
+
+* - only first file found in ZIP file is converted.
+** - original PNG file as a source for header is required to convert back,
+only first frame is supported in APNG files.
+
+Usage: krzydefc [OPTIONS] INPUT_FILE
+(the output file takes the input file name and appends extension of the result)
+
+Options:
+
+1. --gzip
+
+   Output to GZ file.
+
+2. --gzipname
+
+   Output to GZ file including filename stored in the GZIP header.
+
+3. --zip
+
+   Output to ZIP file.
+
+4. --zlib
+
+   Output to ZLIB file.
+
+5. --png#
+
+   Creates a new PNG file from the source being the file to copy deflate stream to
+   and # being the PNG file to copy header from in order to produce valid output.
+
+Bitcoin: 1KrzY1CwE532e6YjN4aCzgV19gtAzQMatJ
+Paypal:  https://www.paypal.me/MrKrzYch00
+^ in case You want to reward my work.
+
+====================================
+           by Mr_KrzYch00
+====================================
+
